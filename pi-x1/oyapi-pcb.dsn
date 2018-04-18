@@ -1,0 +1,280 @@
+(pcb "Z:\github\oyapcb\oya-pi-pcb.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.2-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 144663 -96875 185448 -156569)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
+      (place I2C1 180340 -100330 front 0 (PN CONN_01X04))
+    )
+    (component Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm
+      (place PI_GPIO1 148501 -105004 front 0 (PN CONN_02X20))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -8890))
+      (outline (path signal 100  1270 -8890  -1270 -8890))
+      (outline (path signal 100  -1270 -8890  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 120  -1330 -8950  1330 -8950))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  1330 -1270  1330 -8950))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -9400))
+      (outline (path signal 50  -1800 -9400  1800 -9400))
+      (outline (path signal 50  1800 -9400  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+    )
+    (image Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 1270  3810 -49530))
+      (outline (path signal 100  3810 -49530  -1270 -49530))
+      (outline (path signal 100  -1270 -49530  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 120  -1330 -49590  3870 -49590))
+      (outline (path signal 120  -1330 -1270  -1330 -49590))
+      (outline (path signal 120  3870 1330  3870 -49590))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -50050))
+      (outline (path signal 50  -1800 -50050  4350 -50050))
+      (outline (path signal 50  4350 -50050  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 12 2540 -12700)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 14 2540 -15240)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 16 2540 -17780)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 18 2540 -20320)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 20 2540 -22860)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 22 2540 -25400)
+      (pin Oval[A]Pad_1700x1700_um 23 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 24 2540 -27940)
+      (pin Oval[A]Pad_1700x1700_um 25 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 26 2540 -30480)
+      (pin Oval[A]Pad_1700x1700_um 27 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 28 2540 -33020)
+      (pin Oval[A]Pad_1700x1700_um 29 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 30 2540 -35560)
+      (pin Oval[A]Pad_1700x1700_um 31 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 32 2540 -38100)
+      (pin Oval[A]Pad_1700x1700_um 33 0 -40640)
+      (pin Oval[A]Pad_1700x1700_um 34 2540 -40640)
+      (pin Oval[A]Pad_1700x1700_um 35 0 -43180)
+      (pin Oval[A]Pad_1700x1700_um 36 2540 -43180)
+      (pin Oval[A]Pad_1700x1700_um 37 0 -45720)
+      (pin Oval[A]Pad_1700x1700_um 38 2540 -45720)
+      (pin Oval[A]Pad_1700x1700_um 39 0 -48260)
+      (pin Oval[A]Pad_1700x1700_um 40 2540 -48260)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net PIGND
+      (pins I2C1-1 PI_GPIO1-6)
+    )
+    (net PI5V
+      (pins I2C1-2 PI_GPIO1-2 PI_GPIO1-4)
+    )
+    (net I2C_DAT
+      (pins I2C1-3 PI_GPIO1-3)
+    )
+    (net I2C_CLK
+      (pins I2C1-4 PI_GPIO1-5)
+    )
+    (net PI3V3
+      (pins PI_GPIO1-1)
+    )
+    (net "Net-(PI_GPIO1-Pad7)"
+      (pins PI_GPIO1-7)
+    )
+    (net "Net-(PI_GPIO1-Pad8)"
+      (pins PI_GPIO1-8)
+    )
+    (net "Net-(PI_GPIO1-Pad9)"
+      (pins PI_GPIO1-9)
+    )
+    (net "Net-(PI_GPIO1-Pad10)"
+      (pins PI_GPIO1-10)
+    )
+    (net "Net-(PI_GPIO1-Pad11)"
+      (pins PI_GPIO1-11)
+    )
+    (net "Net-(PI_GPIO1-Pad12)"
+      (pins PI_GPIO1-12)
+    )
+    (net "Net-(PI_GPIO1-Pad13)"
+      (pins PI_GPIO1-13)
+    )
+    (net "Net-(PI_GPIO1-Pad14)"
+      (pins PI_GPIO1-14)
+    )
+    (net "Net-(PI_GPIO1-Pad15)"
+      (pins PI_GPIO1-15)
+    )
+    (net "Net-(PI_GPIO1-Pad16)"
+      (pins PI_GPIO1-16)
+    )
+    (net "Net-(PI_GPIO1-Pad17)"
+      (pins PI_GPIO1-17)
+    )
+    (net "Net-(PI_GPIO1-Pad18)"
+      (pins PI_GPIO1-18)
+    )
+    (net "Net-(PI_GPIO1-Pad19)"
+      (pins PI_GPIO1-19)
+    )
+    (net "Net-(PI_GPIO1-Pad20)"
+      (pins PI_GPIO1-20)
+    )
+    (net "Net-(PI_GPIO1-Pad21)"
+      (pins PI_GPIO1-21)
+    )
+    (net "Net-(PI_GPIO1-Pad22)"
+      (pins PI_GPIO1-22)
+    )
+    (net "Net-(PI_GPIO1-Pad23)"
+      (pins PI_GPIO1-23)
+    )
+    (net "Net-(PI_GPIO1-Pad24)"
+      (pins PI_GPIO1-24)
+    )
+    (net "Net-(PI_GPIO1-Pad25)"
+      (pins PI_GPIO1-25)
+    )
+    (net "Net-(PI_GPIO1-Pad26)"
+      (pins PI_GPIO1-26)
+    )
+    (net "Net-(PI_GPIO1-Pad27)"
+      (pins PI_GPIO1-27)
+    )
+    (net "Net-(PI_GPIO1-Pad28)"
+      (pins PI_GPIO1-28)
+    )
+    (net "Net-(PI_GPIO1-Pad29)"
+      (pins PI_GPIO1-29)
+    )
+    (net "Net-(PI_GPIO1-Pad30)"
+      (pins PI_GPIO1-30)
+    )
+    (net "Net-(PI_GPIO1-Pad31)"
+      (pins PI_GPIO1-31)
+    )
+    (net "Net-(PI_GPIO1-Pad32)"
+      (pins PI_GPIO1-32)
+    )
+    (net "Net-(PI_GPIO1-Pad33)"
+      (pins PI_GPIO1-33)
+    )
+    (net "Net-(PI_GPIO1-Pad34)"
+      (pins PI_GPIO1-34)
+    )
+    (net "Net-(PI_GPIO1-Pad35)"
+      (pins PI_GPIO1-35)
+    )
+    (net "Net-(PI_GPIO1-Pad36)"
+      (pins PI_GPIO1-36)
+    )
+    (net "Net-(PI_GPIO1-Pad37)"
+      (pins PI_GPIO1-37)
+    )
+    (net "Net-(PI_GPIO1-Pad38)"
+      (pins PI_GPIO1-38)
+    )
+    (net "Net-(PI_GPIO1-Pad39)"
+      (pins PI_GPIO1-39)
+    )
+    (net "Net-(PI_GPIO1-Pad40)"
+      (pins PI_GPIO1-40)
+    )
+    (class kicad_default "" I2C_CLK I2C_DAT "Net-(PI_GPIO1-Pad10)" "Net-(PI_GPIO1-Pad11)"
+      "Net-(PI_GPIO1-Pad12)" "Net-(PI_GPIO1-Pad13)" "Net-(PI_GPIO1-Pad14)"
+      "Net-(PI_GPIO1-Pad15)" "Net-(PI_GPIO1-Pad16)" "Net-(PI_GPIO1-Pad17)"
+      "Net-(PI_GPIO1-Pad18)" "Net-(PI_GPIO1-Pad19)" "Net-(PI_GPIO1-Pad20)"
+      "Net-(PI_GPIO1-Pad21)" "Net-(PI_GPIO1-Pad22)" "Net-(PI_GPIO1-Pad23)"
+      "Net-(PI_GPIO1-Pad24)" "Net-(PI_GPIO1-Pad25)" "Net-(PI_GPIO1-Pad26)"
+      "Net-(PI_GPIO1-Pad27)" "Net-(PI_GPIO1-Pad28)" "Net-(PI_GPIO1-Pad29)"
+      "Net-(PI_GPIO1-Pad30)" "Net-(PI_GPIO1-Pad31)" "Net-(PI_GPIO1-Pad32)"
+      "Net-(PI_GPIO1-Pad33)" "Net-(PI_GPIO1-Pad34)" "Net-(PI_GPIO1-Pad35)"
+      "Net-(PI_GPIO1-Pad36)" "Net-(PI_GPIO1-Pad37)" "Net-(PI_GPIO1-Pad38)"
+      "Net-(PI_GPIO1-Pad39)" "Net-(PI_GPIO1-Pad40)" "Net-(PI_GPIO1-Pad7)"
+      "Net-(PI_GPIO1-Pad8)" "Net-(PI_GPIO1-Pad9)" PI3V3 PI5V PIGND
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
