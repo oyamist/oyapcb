@@ -204,21 +204,8 @@ Text GLabel 7400 4200 0    60   Input ~ 0
 GND
 Text GLabel 7400 4100 0    60   Input ~ 0
 5V2
-$Comp
-L CONN_01X03 OUT1
-U 1 1 5AD14EA8
-P 3250 5200
-F 0 "OUT1" H 3250 5400 50  0000 C CNN
-F 1 "CONN_01X03" V 3350 5200 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3250 5200 50  0001 C CNN
-F 3 "" H 3250 5200 50  0000 C CNN
-	1    3250 5200
-	1    0    0    1   
-$EndComp
 Text GLabel 3050 5300 0    60   Input ~ 0
 GND
-Text GLabel 3050 5100 0    60   Input ~ 0
-5V2
 Text GLabel 1250 2650 0    60   Output ~ 0
 OUTPUT3
 Text GLabel 1250 2750 0    60   BiDi ~ 0
@@ -263,38 +250,12 @@ Text GLabel 1250 2350 0    60   BiDi ~ 0
 ID_SD
 Text GLabel 3050 5200 0    60   Input ~ 0
 OUTPUT1
-$Comp
-L CONN_01X03 OUT2
-U 1 1 5AD1570C
-P 4200 5200
-F 0 "OUT2" H 4200 5400 50  0000 C CNN
-F 1 "CONN_01X03" V 4300 5200 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4200 5200 50  0001 C CNN
-F 3 "" H 4200 5200 50  0000 C CNN
-	1    4200 5200
-	1    0    0    1   
-$EndComp
 Text GLabel 4000 5300 0    60   Input ~ 0
 GND
-Text GLabel 4000 5100 0    60   Input ~ 0
-5V2
 Text GLabel 4000 5200 0    60   Input ~ 0
 OUTPUT2
-$Comp
-L CONN_01X03 OUT3
-U 1 1 5AD157A6
-P 5150 5200
-F 0 "OUT3" H 5150 5400 50  0000 C CNN
-F 1 "CONN_01X03" V 5250 5200 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5150 5200 50  0001 C CNN
-F 3 "" H 5150 5200 50  0000 C CNN
-	1    5150 5200
-	1    0    0    1   
-$EndComp
 Text GLabel 4950 5300 0    60   Input ~ 0
 GND
-Text GLabel 4950 5100 0    60   Input ~ 0
-5V2
 Text GLabel 4950 5200 0    60   Input ~ 0
 OUTPUT3
 Text Notes 650  650  0    79   ~ 0
@@ -381,19 +342,19 @@ Wire Notes Line
 $Comp
 L CONN_01X04 FAN1
 U 1 1 5AD174AD
-P 1550 6800
-F 0 "FAN1" H 1550 7050 50  0000 C CNN
-F 1 "CONN_01X04" V 4100 6750 50  0001 C CNN
-F 2 "Connect:Fan_Pin_Header_Straight_1x04" H 1450 7250 50  0001 C CNN
-F 3 "" H 1550 6800 50  0000 C CNN
-	1    1550 6800
+P 1600 4550
+F 0 "FAN1" H 1600 4800 50  0000 C CNN
+F 1 "CONN_01X04" V 4150 4500 50  0001 C CNN
+F 2 "Connect:Fan_Pin_Header_Straight_1x04" H 1500 5000 50  0001 C CNN
+F 3 "" H 1600 4550 50  0000 C CNN
+	1    1600 4550
 	1    0    0    1   
 $EndComp
-Text GLabel 1350 6950 0    60   Input ~ 0
+Text GLabel 1400 4700 0    60   Input ~ 0
 GND
-Text GLabel 1350 6850 0    60   Input ~ 0
+Text GLabel 1400 4600 0    60   Input ~ 0
 V12
-Text GLabel 1350 6650 0    60   Input ~ 0
+Text GLabel 1400 4400 0    60   Input ~ 0
 PWM
 $Comp
 L CONN_01X02 12VOUT1
@@ -410,7 +371,7 @@ Text GLabel 7400 5250 0    60   Input ~ 0
 GND
 Text GLabel 7400 5150 0    60   Input ~ 0
 V12
-Text Notes 650  6300 0    79   ~ 0
+Text Notes 600  3750 0    79   ~ 0
 FAN\n\n
 Wire Notes Line
 	2350 7800 2500 7800
@@ -504,7 +465,7 @@ NoConn ~ 8200 1450
 NoConn ~ 8200 1350
 Text Notes 6750 800  0    79   ~ 0
 NO CONNECTION\n\n
-Text GLabel 1350 6750 0    60   Input ~ 0
+Text GLabel 1400 4500 0    60   Input ~ 0
 TACH
 Text GLabel 9050 1350 0    60   Input ~ 0
 TACH
@@ -512,10 +473,10 @@ NoConn ~ 9050 1350
 NoConn ~ 8200 2750
 NoConn ~ 7700 2650
 NoConn ~ 7700 2750
-Text Notes 8700 6700 2    60   ~ 0
-OyaMist Raspberry Pi GPIO power extender
+Text Notes 9050 6750 2    60   ~ 0
+OyaMist Raspberry Pi GPIO extender
 Text Notes 10800 7650 2    60   ~ 0
-v1.0
+v1.1
 Text Notes 8700 7650 2    60   ~ 0
 2018-04-17
 Text GLabel 1250 1050 0    60   Output ~ 0
@@ -535,7 +496,7 @@ U 1 1 5AD63F77
 P 9450 4300
 F 0 "F1" H 9550 4350 50  0000 C CNN
 F 1 "5A" H 9350 4250 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:BladeFuse-Mini_Keystone_3568" H 9450 4300 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series" H 9450 4300 50  0001 C CNN
 F 3 "" H 9450 4300 50  0000 C CNN
 	1    9450 4300
 	1    0    0    -1  
@@ -572,4 +533,37 @@ F 3 "" H 8900 4900 50  0000 C CNN
 $EndComp
 Text GLabel 9100 4900 2    60   Input ~ 0
 GND
+$Comp
+L CONN_01X02 OUT1
+U 1 1 5AEA41D0
+P 3250 5250
+F 0 "OUT1" H 3250 5400 50  0000 C CNN
+F 1 "CONN_01X02" V 3350 5250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3250 5250 50  0001 C CNN
+F 3 "" H 3250 5250 50  0000 C CNN
+	1    3250 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 OUT2
+U 1 1 5AEA4793
+P 4200 5250
+F 0 "OUT2" H 4200 5400 50  0000 C CNN
+F 1 "CONN_01X02" V 4300 5250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4200 5250 50  0001 C CNN
+F 3 "" H 4200 5250 50  0000 C CNN
+	1    4200 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 OUT3
+U 1 1 5AEA4803
+P 5150 5250
+F 0 "OUT3" H 5150 5400 50  0000 C CNN
+F 1 "CONN_01X02" V 5250 5250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5150 5250 50  0001 C CNN
+F 3 "" H 5150 5250 50  0000 C CNN
+	1    5150 5250
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
