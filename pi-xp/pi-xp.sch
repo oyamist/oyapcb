@@ -478,7 +478,7 @@ OyaMist Raspberry Pi GPIO extender
 Text Notes 10800 7650 2    60   ~ 0
 v1.3
 Text Notes 8700 7650 2    60   ~ 0
-2018-04-17
+2018-05-20
 Text GLabel 1250 1050 0    60   Output ~ 0
 PI3V3_LED
 Text GLabel 8700 4900 0    60   Input ~ 0
