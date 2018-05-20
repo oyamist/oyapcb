@@ -476,7 +476,7 @@ NoConn ~ 7700 2750
 Text Notes 9050 6750 2    60   ~ 0
 OyaMist Raspberry Pi GPIO extender
 Text Notes 10800 7650 2    60   ~ 0
-v1.2
+v1.3
 Text Notes 8700 7650 2    60   ~ 0
 2018-04-17
 Text GLabel 1250 1050 0    60   Output ~ 0
@@ -572,4 +572,6 @@ Text GLabel 4000 5200 0    60   Input ~ 0
 PI3V3
 Text GLabel 3050 5200 0    60   Input ~ 0
 PI3V3
+Text Notes 600  6350 0    79   ~ 0
+NEOPIXEL\n\n\n
 $EndSCHEMATC

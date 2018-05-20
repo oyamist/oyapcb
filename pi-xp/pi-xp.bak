@@ -248,15 +248,15 @@ Text GLabel 1250 2150 0    60   BiDi ~ 0
 SCLK
 Text GLabel 1250 2350 0    60   BiDi ~ 0
 ID_SD
-Text GLabel 3050 5200 0    60   Input ~ 0
+Text GLabel 3050 5100 0    60   Input ~ 0
 OUTPUT1
 Text GLabel 4000 5300 0    60   Input ~ 0
 GND
-Text GLabel 4000 5200 0    60   Input ~ 0
+Text GLabel 4000 5100 0    60   Input ~ 0
 OUTPUT2
 Text GLabel 4950 5300 0    60   Input ~ 0
 GND
-Text GLabel 4950 5200 0    60   Input ~ 0
+Text GLabel 4950 5100 0    60   Input ~ 0
 OUTPUT3
 Text Notes 650  650  0    79   ~ 0
 Raspberry Pi GPIO \n
@@ -566,10 +566,12 @@ F 3 "" H 5150 5200 50  0000 C CNN
 	1    5150 5200
 	1    0    0    1   
 $EndComp
-Text GLabel 4950 5100 0    60   Input ~ 0
+Text GLabel 4950 5200 0    60   Input ~ 0
 PI3V3
-Text GLabel 4000 5100 0    60   Input ~ 0
+Text GLabel 4000 5200 0    60   Input ~ 0
 PI3V3
-Text GLabel 3050 5100 0    60   Input ~ 0
+Text GLabel 3050 5200 0    60   Input ~ 0
 PI3V3
+Text Notes 600  6350 0    79   ~ 0
+NEOPIXEL\n\n\n
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source Z:/github/oyapcb/pi-xp/pi-xp.sch)
-    (date "5/13/2018 7:00:36 AM")
+    (date "5/18/2018 3:37:58 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
