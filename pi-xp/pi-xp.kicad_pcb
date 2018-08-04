@@ -1519,7 +1519,7 @@
   (gr_text 3v3 (at 110.744 108.712 270) (layer F.SilkS)
     (effects (font (size 1 0.8) (thickness 0.15)))
   )
-  (gr_text "OyaMist\nPi-XP v1.4\n" (at 100.584 74.676) (layer F.SilkS)
+  (gr_text "OyaMist\nPi-XPv1.4\n" (at 100.076 75.184) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 88.265 73.66) (end 88.265 131.445) (angle 90) (layer Edge.Cuts) (width 0.1))
